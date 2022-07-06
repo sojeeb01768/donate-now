@@ -31,6 +31,8 @@
     font-size: 65px;
     padding-left: 7%;
     padding-right: 7%;
+    width: 871px;
+    margin: auto;
 
 }
 
@@ -47,4 +49,79 @@
     margin-top: 20px;
     cursor: pointer;
 
+}
+
+.banner-text {
+    margin: auto;
+    width: 656px;
+    text-align: center;
+}
+
+.for-donate h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 18px;
+    padding-top: 87px;
+}
+
+.for-donate p {
+    margin: auto;
+    text-align: center;
+
+    width: 532px;
+}
+
+#parent-div button:focus {
+    background-color: #FFEEEE;
+    border: 2px solid orange;
+
+    color: orange;
+}
+
+#parent-div button:active {
+    background-color: #FFEEEE;
+
+}
+
+
+
+
+#parent-div button {
+    height: 60px;
+    width: 91px;
+    margin: auto;
+    text-align: center;
+    border: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+    margin-left: 11px;
+
+}
+
+#parent-div {
+    margin: auto;
+    text-align: center;
+    margin-top: 42px;
+}
+
+input#amount-box {
+    margin: auto;
+    border: none;
+    width: 517px;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid;
+    height: 29px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.amount {
+    text-align: center;
+    padding-top: 41px;
+    padding-bottom: 10px;
 }
