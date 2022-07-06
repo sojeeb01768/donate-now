@@ -243,7 +243,8 @@ input#mailbox {
     color: white;
 
     font-weight: 500;
-    border-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     border: none;
     margin-top: 10px;
     cursor: pointer;
